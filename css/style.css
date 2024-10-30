@@ -1,0 +1,49 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    font-family: Arial, sans-serif; /* Fuente más limpia */
+}
+
+.container {
+    margin-top: 20px; /* Espacio superior */
+}
+
+.card {
+    border: none; /* Sin borde para un look más limpio */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s; /* Animación suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumento al pasar el ratón */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Bordes redondeados en la parte superior */
+    border-top-right-radius: 10px; /* Bordes redondeados en la parte superior */
+    object-fit: cover; /* Mantener relación de aspecto y cubrir el área */
+    max-height: 250px; /* Altura máxima para las imágenes */
+}
+
+.card-body {
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-bottom-left-radius: 10px; /* Bordes redondeados en la parte inferior */
+    border-bottom-right-radius: 10px; /* Bordes redondeados en la parte inferior */
+}
+
+.card-title {
+    font-weight: bold; /* Título más destacado */
+}
+
+.card-text {
+    color: #6c757d; /* Color de texto más suave */
+}
+
+.text-muted {
+    color: #adb5bd; /* Color para la fecha */
+}
+
